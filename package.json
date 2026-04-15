@@ -1,0 +1,32 @@
+{
+  "name": "github-ranking",
+  "version": "1.0.0",
+  "description": "This Project brings the trending repos of github based on stars given to the repository and using GitHub API",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "node --import tsx index.ts -d week -l 20",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karthirock98/Github-Trending-CLI.git"
+  },
+  "keywords": [
+    "github-ranking"
+  ],
+  "author": "karthirock98",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karthirock98/Github-Trending-CLI/issues"
+  },
+  "homepage": "https://github.com/karthirock98/Github-Trending-CLI#readme",
+  "dependencies": {
+    "@types/node": "^25.6.0",
+    "axios": "^1.15.0",
+    "commander": "^14.0.3",
+    "ts-node": "^10.9.2",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2"
+  }
+}
