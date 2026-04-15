@@ -67,3 +67,7 @@ trending-repo --duration month --limit 20
 - **Node.js**: Runtime environment.
 - **Commander**: For parsing command-line arguments.
 - **Fetch API**: To interact with the GitHub Search API.
+
+Roadmap.sh link
+
+https://roadmap.sh/projects/github-trending-cli/solutions?u=69ddd28535198b31d6498793
